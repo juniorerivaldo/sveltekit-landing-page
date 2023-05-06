@@ -1,5 +1,6 @@
 <script>
 //   import imgUrl from "../assets/logo.png";
+import Whatsapp from "./whatsapp.svelte";
   import { page } from "$app/stores";
 </script>
 
@@ -29,17 +30,17 @@
         class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
       >
         <li>
-          <a data-sveltekit-reload href="/">Inicio</a>
+          <a data-sveltekit-reload href="#inicio">Inicio</a>
         </li>
         <li>
-          <a href="/sobre">Sobre</a>
+          <a href="#sobre">Sobre</a>
         </li>
         <li>
-          <a href="/servicos">Serviços</a>
+          <a href="#servicos">Serviços</a>
         </li>
 
         <li>
-          <a href="/contato">Contato</a>
+          <a href="#contato">Contato</a>
         </li>
       </ul>
     </div>
@@ -51,18 +52,21 @@
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
       <li>
-        <a data-sveltekit-reload href="/">Home</a>
+        <a data-sveltekit-reload href="#inicio">Inicio</a>
       </li>
       <li>
-        <a href="/sobre">Sobre</a>
+        <a href="#sobre">Sobre</a>
       </li>
       <li>
-        <a href="/servicos">Serviços</a>
+        <a href="#servicos">Serviços</a>
       </li>
       <li>
-        <a href="/contato">Contato</a>
+        <a href="#contato">Contato</a>
       </li>
     </ul>
+    <div class="pl-10">
+			<Whatsapp />
+		</div>
   </div>
   <div class="navbar-end" />
 </div>
