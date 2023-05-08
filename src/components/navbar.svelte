@@ -44,7 +44,7 @@
           <a href="#sobre">Sobre</a>
         </li>
         <li>
-          <a href="#servicos">Serviços</a>
+          <a href="#consulta">Consulta</a>
         </li>
 
         <li>
@@ -66,7 +66,7 @@
         <a href="#sobre">Sobre</a>
       </li>
       <li>
-        <a href="#servicos">Serviços</a>
+        <a href="#consulta">Consulta</a>
       </li>
       <li>
         <a href="#contato">Contato</a>
