@@ -52,9 +52,9 @@
         </li>
       </ul>
     </div>
-    <a href="/">
-      <!-- <img class="mask mask-circle" src={imgUrl} width="50" alt="mask" /> -->
-    </a>
+    <!-- <a href="/"> -->
+    <!-- <img class="mask mask-circle" src={imgUrl} width="50" alt="mask" /> -->
+    <!-- </a> -->
   </div>
 
   <div class="navbar-center hidden lg:flex">
@@ -82,7 +82,7 @@
         data-choose-theme
         class="select select-ghost w-full max-w-xs"
       >
-        <option value="light">Default</option>
+        <option value="halloween">Default</option>
         <option value="dark">Dark</option>
         <option value="cupcake">Cupcake</option>
         <option value="bumblebee">Bumblebee</option>
@@ -92,7 +92,7 @@
         <option value="retro">Retro</option>
         <option value="cyberpunk">Cyberpunk</option>
         <option value="valentine">Valentine</option>
-        <option value="halloween">Halloween</option>
+        <option value="light">Light</option>
         <option value="garden">Garden</option>
         <option value="forest">Forest</option>
         <option value="aqua">Aqua</option>
